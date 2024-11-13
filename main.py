@@ -10,7 +10,7 @@ scaler = joblib.load('scaler.joblib')
  # GET request
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Tuwaiq Academy"}
+    return {"message": "Welcome to Tuwaiq"}
  # get request
 @app.get("/items/")
 def create_item(item: dict):
